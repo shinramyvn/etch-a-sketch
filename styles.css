@@ -1,0 +1,15 @@
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.col {
+    width: 30px;
+    height: 30px;
+    background-color: antiquewhite;
+}
