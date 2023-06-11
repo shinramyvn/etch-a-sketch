@@ -10,4 +10,12 @@ function makeGrid(rows, cols) {
         }
     }
 }
-makeGrid(16,16)
+makeGrid(50,50);
+
+const cells = document.querySelectorAll('.col');
+
+cells.forEach((cell) => {
+    cell.addEventListener('mouseover', () => {
+        cell.style.backgroundColor = "blue";
+    });
+})
