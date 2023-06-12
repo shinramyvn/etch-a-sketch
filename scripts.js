@@ -5,17 +5,17 @@ function makeGrid(rows, cols) {
         let row = document.createElement('div');
         container.appendChild(row).className = 'row';
         for(j=0; j<cols; j++) {
-            let col = document.createElement('div');
-            row.appendChild(col).className = 'col';
+            let cell = document.createElement('div');
+            row.appendChild(cell).className = 'cell';
         }
     }
 }
 makeGrid(50,50);
 
-const cells = document.querySelectorAll('.col');
+const cells = document.querySelectorAll('.cell');
 
 cells.forEach((cell) => {
     cell.addEventListener('mouseover', () => {
-        cell.style.backgroundColor = "blue";
+        cell.style.backgroundColor = "black";
     });
 })
