@@ -33,6 +33,7 @@ body {
 .flex {
     display: flex;
     gap: 20px;
+    align-items: center;
 
 }
 
@@ -45,5 +46,5 @@ body {
 }
 
 .cell {
-    background-color: lightgray;
+    background-color: rgb(237, 237, 237);
 }
