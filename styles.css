@@ -3,10 +3,10 @@ body {
 
 .container-wrapper {
     background-color: rgb(200, 10, 10);
-    padding: 60px 10px;
+    padding: 60px 60px;
     margin: 70px;
     border-radius: 60px;
-    width: 800px;
+    width: 600px;
     margin: 0 auto;
 }
 
@@ -21,17 +21,29 @@ body {
     width: 500px;
     height: 500px;
     margin: 0 auto;
-    background-color: lightgrey;
 }
 
 .row {
     display: grid;
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     flex-grow: 0;
 }
 
+.flex {
+    display: flex;
+    gap: 20px;
+
+}
+
+.resize-container,
+.color-changer {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+
+}
+
 .cell {
-
-
+    background-color: lightgray;
 }
